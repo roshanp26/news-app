@@ -1,0 +1,14 @@
+.footer {
+ background-color: lightblue;
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ color: white;
+ font-size: 25px;
+ height : 80px;
+}
+
+.footer h1
+{
+	margin-top : 10px;
+}
