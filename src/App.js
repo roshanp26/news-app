@@ -11,7 +11,7 @@ import Footer from "./Components/Footer";
 function App() {
 
 	const pageSize = 5;
-	const apiKey = "745929e17ee047bfa5c52442fb79a81d";
+	const apiKey = process.env.REACT_APP_API_KEY;
 	const [progress, setProgress] = useState(0);
 
   return (
